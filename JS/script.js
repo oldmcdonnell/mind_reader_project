@@ -2,7 +2,7 @@
 let btn = document.getElementById("dynamicButton");
 let btn2 = document.getElementById("standardNext")
 let textForPage = document.getElementById("javascriptText")
-
+let goClass = "btn btn-info p-3 rounded-circle btn-lg"
 
 let pageNum = 0;
 
@@ -21,6 +21,8 @@ console.log('dynamic next page')
 
     } else {
         pageNum = 0
+        btn.innerHTML = "GO"
+        btn.className = goClass
         btn2.innerHTML = "";
         btn2.className = "nextBtnClear"
         addBodyText()
