@@ -88,8 +88,8 @@ const symbolList = ['1 - ☠', '2 - ☮', '3 - ☯', '4 - ♠', '5 - Ω', '6 - �
 const printArray = []
 const numArry = []
 
-const textArr = ['I can read your mind', 'Pick a number between 01-99', 'Add both numbers together to get a new number', 'Subtract your new number from the original number', 'Symbols', '']
-const bottomArr = ['','when you have your number click next', 'Ex: 14 is 1 + 4 =5 click next to proceed', 'Subtract your number number from your original number','find your new number', 'your symbol is  ♥']
+const textArr = ['I can read your mind', 'Pick a number between 01-99', 'Add both numbers together to get a new number', 'Subtract your new number from the original number', 'Symbols', '♥']
+const bottomArr = [' ','when you have your number click next', 'Ex: 14 is 1 + 4 =5 click next to proceed', 'Subtract your number number from your original number','find your new number', 'your symbol is  ♥']
 
 function addBodyText() {
     textForPage.textContent = textArr[pageNum]
