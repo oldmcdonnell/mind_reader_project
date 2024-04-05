@@ -42,6 +42,7 @@ function pageTurnOrReset(){
         btn.className = goClass
         btn2.textContent = "";
         btn2.classList.add("nextBtnClear")
+        textForSymbols.textContent = ""
         addBodyText()
         console.log("reset")
 }
