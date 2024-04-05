@@ -1,8 +1,25 @@
 /* CSS */
+.arrowStyle{
+  font-size:x-large
+}
+
+.mainText{
+  color: #363636;
+  font-family: "Akzidenz Grotesk BQ Medium", -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.square{
+  height: 50px;
+  width: 50px;
+}
 
 .symbolStyle{
-  display: grid;
-  justify-content: center;
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: start;
   overflow-y: scroll;
   max-height: 200px;
   align-content: center;
