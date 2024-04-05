@@ -10,6 +10,13 @@
   font-weight: 400;
 }
 
+.subText{
+  color: #2d94b9;
+  font-family: "Akzidenz Grotesk BQ Medium", -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+}
+
 .square{
   height: 50px;
   width: 50px;
